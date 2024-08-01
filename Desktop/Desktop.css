@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#02061A;;
+}
+a{
+    text-decoration: none;
+}
+.Contriner{
+    margin-top: 102px;
+    margin-right: 187px;
+    margin-left: 180px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 71px;
+    list-style: none;
+}
+.main>div a{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.main ul li a{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.light{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 155px;
+}
+header h1{
+    width: 522px;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+header div div button:nth-child(n){
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 254px;
+    height: 95px;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+}
+header div div button:last-child{
+    background-color:#02061A;
+}
+header div div button:first-child{
+    background: #23263C;
+    margin-right: 22px;
+}
+header>div:last-child{
+    padding-bottom: 60px;
+}
+.featured{
+    margin-top: 200px;
+}
+.featured p{
+    color: #FFF;
+    text-align: start;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.featured div{
+    width: 913px;
+    height: 125px;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 68px;
+    padding-right: 84px;
+}
+.featured div a{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+.content{
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.gold{
+    padding-bottom: 50px;
+}
+.buynow{
+    margin-bottom: 58px;
+    gap: 6px;
+}
+.buynow h1{
+    margin: 0;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+.NFT {
+    color: #56CAB1;
+}
+.buynow p:nth-child(2){
+    margin: 0;
+    width: 521px;
+    color: #4C99BB;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+.buynow p:nth-child(3){
+    margin: 0;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.price-container {
+    display: inline-block;
+    position: relative;
+}
+.price-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.arrow-container{
+    width: 78px;
+    display: inline-block;
+    position: relative;
+}
+.arrow-line{
+    position: absolute;
+    top: -39px;
+    left: 20%;
+}
+.buynow a{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.border{
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    width: 126px;
+    height: 68px;
+}
+.BorderContriner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+    width:132px;
+}
+.BorderContriner div:nth-child(2){
+    position: absolute;
+}
+.BorderContriner div:nth-child(3){
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+.people{
+    width: 459px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    padding-left: 28px;
+    padding-right: 34px;
+}
+.people div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 66px;
+}
+.people p{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.people div:nth-child(2){
+    padding-right: 47px;
+    padding-left: 21px;
+}
+.content2{
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+    margin-top: 74px;
+}
+.viewournfts h1{
+    width: 465px;
+    height: 212px;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.viewournfts button{
+    width: 450px;
+    height: 96px;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #56CAB1;
+    font-family: "Outfit", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.tran{
+    position: absolute;
+    transform: rotate(-25.337deg);
+    left: 400px;
+    top:60px;
+    z-index: -1;
+}
+.standart{
+    position: absolute;
+    left: 654px;
+    top:146px;
+    z-index: 2;
+}
+.tran img{
+    transform: rotate(25.689deg);
+    position: absolute;
+    top: -64px;
+    left: -50px;
+    height: auto;
+}
+.tran > div{
+    position: absolute;
+    top:330px;
+}
+.card{
+    width: 375px;
+    height: 507px;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    mix-blend-mode: screen;
+    justify-content: start;
+}
+.card div h1{
+    color: #56CAB1;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #02061A;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+    padding-left: 29px;
+}
+.card div div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px 25px 22px 16px;
+}
+.card div p{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+.of{
+    color: #23263C;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card div button{
+    width: 147px;
+    height: 51px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    color: #52A7C6;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #02061A;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.content3{
+    margin-top: 230px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content3 p{
+    color: #5BD2BF;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+.content3 h1{
+    width: 427px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+}
+.content4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 147px;
+}
+.blok{
+    position: relative;
+    border-radius: 10px;
+    background: #24293F;
+    width: 345px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blok h1{
+    color: #FFF;
+    width: 327px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.blok p{
+    padding-left: 24px;
+    color: #FFF;
+    width: 302px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.blok img{
+    width: 155px;
+    height: 150px;
+    mix-blend-mode: luminosity;
+    border-radius: 100px;
+    position: absolute;
+    top: -25%;
+}
