@@ -305,6 +305,11 @@ header>div:last-child{
     text-transform: capitalize;
     margin: 0;
     padding-left: 29px;
+    text-shadow:
+            -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px  2px 0 black,
+            2px  2px 0 black;
 }
 .card div div{
     display: flex;
@@ -338,6 +343,11 @@ header>div:last-child{
     font-size: 40px;
     font-weight: 700;
     text-transform: capitalize;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  1px 0 black,
+            1px  1px 0 black;
 }
 .content3{
     margin-top: 230px;
